@@ -1,0 +1,2 @@
+# g++ -std=c++11 Hungarian.cpp main.cpp Event.cpp Process.cpp SchedulerFCFS.cpp SchedulerFirstAvailable.cpp SchedulerSmallestFirst.cpp SchedulerLargestFirst.cpp SchedulerConservative.cpp Scheduler_Utilization_Based.cpp BB_online.cpp Find_min.cpp && ./a.out
+g++ -std=c++11 Hungarian.cpp main.cpp Event.cpp Process.cpp Scheduler_Utilization_Based.cpp list_online.cpp BB_online.cpp Hungarian_online.cpp MCTS_online.cpp && ./a.out
